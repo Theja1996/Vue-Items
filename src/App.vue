@@ -25,19 +25,22 @@ export default {
           title: 'Nike Air Max',
           color: 'green',
           bgtext: 'NIKE',
-          src: require('./assets/green-shoe.png')
+          src: require('./assets/green-shoe.png'),
+          intro:'Nike delivers innovative products, experiences and services to inspire athletes.'
         },
         {
           title: 'Nike flex',
           color: 'blue',
           bgtext: 'AIR',
-          src: require('./assets/blue-shoe.png')
+          src: require('./assets/blue-shoe.png'),
+          intro:'Nike delivers innovative products, experiences and services to inspire athletes.'
         },
         {
           title: 'Nike Roche Runs',
           color: 'pink',
           bgtext: 'MAX',
-          src: require('./assets/pink-shoe.png')
+          src: require('./assets/pink-shoe.png'),
+          intro:'Nike delivers innovative products, experiences and services to inspire athletes.'
         }
       ]
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="items">
+    <div class="item">
       <div :class="'item-inner  ' + item.color">
           <div class="item-text-wrap">
               <h2 class="bg-text">{{item.bgtext}}</h2>
@@ -9,7 +9,8 @@
 </div>
 <div class="item-detail">
     <h2>{{item.title}}</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vero cumque, velit deleniti voluptatum animi praesentium rerum, id natus expedita earum, quisquam veritatis suscipit hic officia at soluta porro dolores!</p>
+<p>{{item.intro}}</p>
+
 </div>
           
       </div>
@@ -25,7 +26,7 @@ export default {
 </script>
 
 <style >
-.items {
+.item {
     flex: 1 1 33.333%;
     width: 100%;
     padding: 25px;
@@ -89,4 +90,10 @@ export default {
     font-weight: 300;
     color: #676767;
   }
+  .green{
+   background-color: #41B883;
+}
+.blue{
+   background-color: #35495E;
+}
 </style>
